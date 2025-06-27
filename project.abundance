@@ -7,7 +7,53 @@
     "ioValues": [],
     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
     "topLevel": true,
-    "allAtoms": [],
+    "allAtoms": [
+        {
+            "atomType": "Output",
+            "name": "Output",
+            "x": 0.98,
+            "y": 0.5,
+            "uniqueID": "f0b35f23-d37c-487b-b234-79336d44d634",
+            "ioValues": [],
+            "description": "Connect geometry here to make it available in the next level up. "
+        },
+        {
+            "atomType": "Rectangle",
+            "name": "Rectangle",
+            "x": 0.39140625,
+            "y": 0.6351791530944626,
+            "uniqueID": "0d6e70a6-5bbd-46fd-9dd8-bf9f8f3392b1",
+            "ioValues": [
+                {
+                    "name": "x length",
+                    "ioValue": 96
+                },
+                {
+                    "name": "y length",
+                    "ioValue": 48
+                }
+            ],
+            "description": "Creates a new rectangle."
+        },
+        {
+            "atomType": "Rectangle",
+            "name": "Rectangle",
+            "x": 0.553125,
+            "y": 0.5635179153094463,
+            "uniqueID": "e108682b-44d8-4eef-bb64-5d2bbd41f258",
+            "ioValues": [
+                {
+                    "name": "x length",
+                    "ioValue": 48
+                },
+                {
+                    "name": "y length",
+                    "ioValue": 48
+                }
+            ],
+            "description": "Creates a new rectangle."
+        }
+    ],
     "allConnectors": [],
     "unitsKey": "Inches",
     "fileTypeVersion": 1,
