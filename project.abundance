@@ -1,0 +1,16 @@
+{
+    "atomType": "Molecule",
+    "name": "abundance_test01",
+    "x": 0,
+    "y": 0,
+    "uniqueID": "3a650740-780d-4fb3-b743-d759eb76d5cf",
+    "ioValues": [],
+    "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
+    "topLevel": true,
+    "allAtoms": [],
+    "allConnectors": [],
+    "unitsKey": "Inches",
+    "fileTypeVersion": 1,
+    "compiledBom": {},
+    "filetypeVersion": 1
+}
