@@ -88,19 +88,14 @@
                     "x": 0.66796875,
                     "y": 0.4690553745928338,
                     "uniqueID": "da44c741-745f-4853-93a5-d23b74ad8c37",
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": "d939e54c-6c06-4a3a-b208-a66dab34ea53"
-                        }
-                    ],
+                    "ioValues": [],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
                     "atomType": "Molecule",
                     "name": "Hole",
-                    "x": 0.21796875000000002,
-                    "y": 0.4690553745928338,
+                    "x": 0.21328124999999998,
+                    "y": 0.43973941368078173,
                     "uniqueID": "f7920fee-aa13-4696-a254-2ece1c3f9b1e",
                     "ioValues": [
                         {
@@ -307,17 +302,17 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Linear-Pattern",
-                    "x": 0.4015625,
-                    "y": 0.6579804560260586,
-                    "uniqueID": "d939e54c-6c06-4a3a-b208-a66dab34ea53",
+                    "x": 0.41328125,
+                    "y": 0.28013029315960913,
+                    "uniqueID": "6757c7ef-485a-4f2f-abac-e458aa4c54f8",
                     "ioValues": [
                         {
                             "name": "Number",
-                            "ioValue": 4
+                            "ioValue": 6
                         },
                         {
                             "name": "Dist",
-                            "ioValue": 15
+                            "ioValue": 20
                         },
                         {
                             "name": "Geometry",
@@ -332,11 +327,11 @@
                             "name": "Output",
                             "x": 0.98,
                             "y": 0.5,
-                            "uniqueID": "2b805b22-096f-4238-a551-4318d76acd14",
+                            "uniqueID": "5815aca1-c69c-4be5-8d15-64b46b04c377",
                             "ioValues": [
                                 {
                                     "name": "number or geometry",
-                                    "ioValue": "16366518-ea1a-4a2f-aa7f-b79f915f957c"
+                                    "ioValue": "1c6b683c-a42e-406f-a8ee-974cb4cb4244"
                                 }
                             ],
                             "description": "Connect geometry here to make it available in the next level up. "
@@ -344,9 +339,9 @@
                         {
                             "atomType": "Code",
                             "name": "Code",
-                            "x": 0.5109140518417463,
-                            "y": 0.41896024464831805,
-                            "uniqueID": "16366518-ea1a-4a2f-aa7f-b79f915f957c",
+                            "x": 0.5112433862433863,
+                            "y": 0.4345403899721449,
+                            "uniqueID": "1c6b683c-a42e-406f-a8ee-974cb4cb4244",
                             "ioValues": [
                                 {
                                     "name": "Shape",
@@ -354,11 +349,11 @@
                                 },
                                 {
                                     "name": "Number",
-                                    "ioValue": 10
+                                    "ioValue": 6
                                 },
                                 {
                                     "name": "Dist",
-                                    "ioValue": 10
+                                    "ioValue": 20
                                 }
                             ],
                             "description": "Defines a Replicad code block.",
@@ -370,7 +365,7 @@
                             "name": "Rectangle",
                             "x": 0.27976190476190477,
                             "y": 0.2116991643454039,
-                            "uniqueID": "256973e2-acfa-478a-869b-ebcb0a642157",
+                            "uniqueID": "0f6fa70d-896b-4650-b8ab-d3b9478200e0",
                             "ioValues": [
                                 {
                                     "name": "x length",
@@ -388,7 +383,7 @@
                             "name": "Number",
                             "x": 0.025384615384615384,
                             "y": 0.32869080779944293,
-                            "uniqueID": "8594842c-7896-4f66-8b8d-643e531323b7",
+                            "uniqueID": "87644b49-8bcb-4ec5-a2b6-b8922e5ed73d",
                             "ioValues": [],
                             "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
                             "type": "number"
@@ -398,7 +393,7 @@
                             "name": "Dist",
                             "x": 0.025384615384615384,
                             "y": 0.6434540389972144,
-                            "uniqueID": "ea881d48-6afc-4b2e-89cc-7e7eceb9363a",
+                            "uniqueID": "004b71a2-4ecd-475a-a579-32743453b5ec",
                             "ioValues": [],
                             "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
                             "type": "number"
@@ -408,7 +403,7 @@
                             "name": "Geometry",
                             "x": 0.025384615384615384,
                             "y": 0.9108635097493036,
-                            "uniqueID": "a332e114-ac16-4825-ada1-55c317261974",
+                            "uniqueID": "727f555f-1bdc-4a0a-a70e-e8e296a7ffd3",
                             "ioValues": [],
                             "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
                             "type": "number"
@@ -419,50 +414,51 @@
                             "ap1Name": "geometry",
                             "ap2Name": "number or geometry",
                             "ap2Primary": false,
-                            "ap1ID": "16366518-ea1a-4a2f-aa7f-b79f915f957c",
-                            "ap2ID": "2b805b22-096f-4238-a551-4318d76acd14"
+                            "ap1ID": "1c6b683c-a42e-406f-a8ee-974cb4cb4244",
+                            "ap2ID": "5815aca1-c69c-4be5-8d15-64b46b04c377"
                         },
                         {
                             "ap1Name": "number or geometry",
                             "ap2Name": "Number",
                             "ap2Primary": false,
-                            "ap1ID": "8594842c-7896-4f66-8b8d-643e531323b7",
-                            "ap2ID": "16366518-ea1a-4a2f-aa7f-b79f915f957c"
+                            "ap1ID": "87644b49-8bcb-4ec5-a2b6-b8922e5ed73d",
+                            "ap2ID": "1c6b683c-a42e-406f-a8ee-974cb4cb4244"
                         },
                         {
                             "ap1Name": "number or geometry",
                             "ap2Name": "Dist",
                             "ap2Primary": false,
-                            "ap1ID": "ea881d48-6afc-4b2e-89cc-7e7eceb9363a",
-                            "ap2ID": "16366518-ea1a-4a2f-aa7f-b79f915f957c"
+                            "ap1ID": "004b71a2-4ecd-475a-a579-32743453b5ec",
+                            "ap2ID": "1c6b683c-a42e-406f-a8ee-974cb4cb4244"
                         },
                         {
                             "ap1Name": "number or geometry",
                             "ap2Name": "Shape",
                             "ap2Primary": false,
-                            "ap1ID": "a332e114-ac16-4825-ada1-55c317261974",
-                            "ap2ID": "16366518-ea1a-4a2f-aa7f-b79f915f957c"
+                            "ap1ID": "727f555f-1bdc-4a0a-a70e-e8e296a7ffd3",
+                            "ap2ID": "1c6b683c-a42e-406f-a8ee-974cb4cb4244"
                         }
                     ],
                     "parentRepo": {
+                        "lastFoundGit": "2025-03-02T16:20:37.798Z",
                         "privateRepo": false,
                         "repoName": "Linear-Pattern",
                         "dateCreated": "2025-02-19T00:40:13Z",
-                        "readMe": "https://raw.githubusercontent.com/alzatin/Linear-Pattern/master/README.md?sanitize=true",
+                        "readMe": "https://raw.githubusercontent.com/BarbourSmith/Linear-Pattern/master/README.md?sanitize=true",
                         "yyyy": 2025,
                         "topMoleculeID": 1739925613779,
                         "githubMoleculesUsed": [],
-                        "html_url": "https://github.com/alzatin/Linear-Pattern",
+                        "html_url": "https://github.com/BarbourSmith/Linear-Pattern",
                         "topics": [],
-                        "parentRepo": "BarbourSmith/Linear-Pattern",
+                        "parentRepo": null,
                         "forks": 0,
-                        "dateModified": "739315",
+                        "dateModified": "739301",
                         "ranking": 0,
-                        "searchField": "linear-pattern alzatin returns the input shape formed into an assembly translated n times ",
-                        "owner": "alzatin",
+                        "searchField": "linear-pattern barboursmith returns the input shape formed into an assembly translated n times ",
+                        "owner": "BarbourSmith",
                         "description": "Returns the input shape formed into an assembly translated n times",
-                        "contentURL": "https://raw.githubusercontent.com/alzatin/Linear-Pattern/master/project.abundance?sanitize=true",
-                        "svgURL": "https://raw.githubusercontent.com/alzatin/Linear-Pattern/master/project.svg?sanitize=true",
+                        "contentURL": "https://raw.githubusercontent.com/BarbourSmith/Linear-Pattern/master/project.abundance?sanitize=true",
+                        "svgURL": "https://raw.githubusercontent.com/BarbourSmith/Linear-Pattern/master/project.svg?sanitize=true",
                         "isLocal": false
                     },
                     "unitsKey": "MM",
@@ -476,14 +472,7 @@
                     "ap2Name": "Geometry",
                     "ap2Primary": false,
                     "ap1ID": "f7920fee-aa13-4696-a254-2ece1c3f9b1e",
-                    "ap2ID": "d939e54c-6c06-4a3a-b208-a66dab34ea53"
-                },
-                {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "number or geometry",
-                    "ap2Primary": false,
-                    "ap1ID": "d939e54c-6c06-4a3a-b208-a66dab34ea53",
-                    "ap2ID": "da44c741-745f-4853-93a5-d23b74ad8c37"
+                    "ap2ID": "6757c7ef-485a-4f2f-abac-e458aa4c54f8"
                 }
             ],
             "fileTypeVersion": 1,
